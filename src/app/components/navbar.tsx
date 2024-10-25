@@ -1,5 +1,7 @@
 import React from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import Image from 'next/image'
+import apple from '../../../public/assests/picture/apple-logo.svg'
 
 const Navbar = () => {
   return (
@@ -7,7 +9,7 @@ const Navbar = () => {
       <header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-           <img src='/apple-logo.svg' width={80} alt="" />
+           <Image src={apple} width={80} alt="" />
          
         
             <span className="title-font sm:text-4xl text-3xl mb-0 font-medium text-gray-900">Educational Tutorial</span>
