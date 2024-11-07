@@ -18,7 +18,11 @@ const Project = () => {
     </div>
     <div className="flex flex-wrap -m-8">
         {/* project */}
-      <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+      <div 
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+      className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
            alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={max}/>
@@ -33,7 +37,11 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+      <div 
+      data-aos="flip-right"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+      className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
            alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={pd1}/>
@@ -48,7 +56,11 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+      <div 
+      data-aos="flip-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+      className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
            alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={sc}/>
@@ -67,7 +79,11 @@ const Project = () => {
       </div>
     
 
-      <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+      <div 
+      data-aos="flip-right"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+      className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
            alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={sc}/>
@@ -84,7 +100,11 @@ const Project = () => {
           
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+      <div 
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+      className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
            alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={max2}/>
@@ -101,7 +121,11 @@ const Project = () => {
           
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+      <div 
+      data-aos="flip-down"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+      className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
            alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={jg7}/>

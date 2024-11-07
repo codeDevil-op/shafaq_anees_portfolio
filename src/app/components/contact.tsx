@@ -6,7 +6,9 @@ const Contact = () => {
     <div id='contact'>
     <section className="text-gray-600 body-font relative">
     <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-      <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div data-aos="fade-down"
+     data-aos-duration="2000"
+      className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
         <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map"  scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.538150964321!2d66.98938961100238!3d24.947798841664834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36b003679ed97%3A0xc9491d47baacac6d!2sOrangi%20town%20karachi!5e0!3m2!1sen!2s!4v1728040090451!5m2!1sen!2s" ></iframe>
         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6">
@@ -21,7 +23,10 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <div 
+      data-aos="fade-up"
+     data-aos-duration="2000"
+      className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
         <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Contact</h2>
         <p className="leading-relaxed mb-5 text-gray-600">Feel Free to contact</p>
         <div className="relative mb-4">

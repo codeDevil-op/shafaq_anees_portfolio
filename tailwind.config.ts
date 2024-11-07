@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      scrollBehavior: {
+        smooth: 'smooth', // Add the smooth scroll behavior
+      },
     },
   },
   plugins: [],
